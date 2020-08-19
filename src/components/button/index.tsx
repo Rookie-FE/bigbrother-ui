@@ -434,7 +434,6 @@ const StyledButton = styled.button<ButtonProps>`
               ${rgba(color.darkest, 0.2)} 0 8px 18px 0px;
           }
       `};
-
 `;
 export function Button(props: PropsWithChildren<ButtonProps>) {
     const { isLoading, loadingText, isLink, children } = props;
