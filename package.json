@@ -18,7 +18,8 @@
         "eject": "react-scripts eject",
         "storybook": "start-storybook -p 6006 -s public",
         "build-storybook": "build-storybook --no-dll --quiet",
-        "coverage": "react-scripts test --coverage --watchAll=false"
+        "coverage": "react-scripts test --coverage --watchAll=false",
+        "coverall": "npm run coverage  && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
     },
     "eslintConfig": {
         "extends": "react-app"

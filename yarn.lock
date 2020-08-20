@@ -5220,6 +5220,17 @@ cosmiconfig@^6.0.0:
     path-type "^4.0.0"
     yaml "^1.7.2"
 
+coveralls@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/coveralls/-/coveralls-3.1.0.tgz#13c754d5e7a2dd8b44fe5269e21ca394fb4d615b"
+  integrity sha512-sHxOu2ELzW8/NC1UP5XVLbZDzO4S3VxfFye3XYCznopHy02YjNkHcj5bKaVw2O7hVaBdBjEdQGpie4II1mWhuQ==
+  dependencies:
+    js-yaml "^3.13.1"
+    lcov-parse "^1.0.0"
+    log-driver "^1.2.7"
+    minimist "^1.2.5"
+    request "^2.88.2"
+
 create-ecdh@^4.0.0:
   version "4.0.4"
   resolved "https://r.cnpmjs.org/create-ecdh/download/create-ecdh-4.0.4.tgz#d6e7f4bffa66736085a0762fd3a632684dabcc4e"
@@ -9128,6 +9139,11 @@ lazy-universal-dotenv@^3.0.1:
     dotenv "^8.0.0"
     dotenv-expand "^5.1.0"
 
+lcov-parse@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/lcov-parse/-/lcov-parse-1.0.0.tgz#eb0d46b54111ebc561acb4c408ef9363bdc8f7e0"
+  integrity sha1-6w1GtUER68VhrLTECO+TY73I9+A=
+
 left-pad@^1.3.0:
   version "1.3.0"
   resolved "https://r.cnpmjs.org/left-pad/download/left-pad-1.3.0.tgz#5b8a3a7765dfe001261dde915589e782f8c94d1e"
@@ -9280,6 +9296,11 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   version "4.17.20"
   resolved "https://r.cnpmjs.org/lodash/download/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
+
+log-driver@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/log-driver/-/log-driver-1.2.7.tgz#63b95021f0702fedfa2c9bb0a24e7797d71871d8"
+  integrity sha512-U7KCmLdqsGHBLeWqYlFA0V0Sl6P08EE1ZrmA9cxjUE0WVqT9qnyVDPz1kzpFEP0jdJuFnasWIfSd7fsaNXkpbg==
 
 log-symbols@^2.1.0:
   version "2.2.0"
@@ -11662,7 +11683,7 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
-react-dom@^16.8.3:
+react-dom@>=16.8.0, react-dom@^16.8.3:
   version "16.13.1"
   resolved "https://r.cnpmjs.org/react-dom/download/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
   integrity sha1-wb03MxoEhsB47lTEdAcgmTsuDn8=
@@ -11877,7 +11898,7 @@ react-transition-group@^4.3.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@^16.8.3, react@^16.9.17:
+react@>=16.8.0, react@^16.8.3, react@^16.9.17:
   version "16.13.1"
   resolved "https://r.cnpmjs.org/react/download/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   integrity sha1-LoGIIvGpdDEiwGPWQQ2FweOv5I4=
@@ -12217,7 +12238,7 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.87.0, request@^2.88.0:
+request@^2.87.0, request@^2.88.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://r.cnpmjs.org/request/download/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha1-1zyRhzHLWofaBH4gcjQUb2ZNErM=
