@@ -1,3 +1,4 @@
+import React from "react";
 import Highlight from "./index";
 import { withKnobs } from "@storybook/addon-knobs";
 export default {
