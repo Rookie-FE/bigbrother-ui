@@ -466,3 +466,5 @@ Button.defaultProps = {
     size: SIZES.medium,
     ButtonWrapper: undefined,
 };
+
+export default Button;
