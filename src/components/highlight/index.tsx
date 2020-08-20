@@ -135,3 +135,5 @@ export function Highlight(props: PropsWithChildren<HighlightProps>) {
         </HighlightBlock>
     );
 }
+
+export default Highlight;
