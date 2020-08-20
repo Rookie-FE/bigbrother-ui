@@ -6,7 +6,13 @@
     "types": "dist/index.d.ts",
     "sideEffects": false,
     "dependencies": {
-        "polished": "^3.6.5"
+        "coveralls": "^3.1.0",
+        "polished": "^3.6.5",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.3",
+        "styled-components": "^5.1.1",
+        "typescript": "~3.7.2"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/@Rookie-FE"
