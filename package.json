@@ -76,16 +76,24 @@
     "@types/react-dom": "^16.9.0",
     "@types/styled-components": "^5.1.2",
     "babel-loader": "^8.1.0",
+    "plop": "^2.7.4",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "react-is": "^16.13.1",
     "react-scripts": "3.4.3",
     "styled-components": "^5.1.1",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "zf-np": "^6.4.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "styled-components": "^5.1.1"
+  },
+  "np": {
+    "test": false,
+    "yolo": false,
+    "yarn": false,
+    "cleanup": false
   }
 }
