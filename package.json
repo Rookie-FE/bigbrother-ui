@@ -95,7 +95,7 @@
         "styled-components": "^5.1.1"
     },
     "zf-np": {
-        "test": false,
+        "tests": false,
         "yolo": false,
         "yarn": false,
         "cleanup": false
