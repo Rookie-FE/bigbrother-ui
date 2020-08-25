@@ -97,7 +97,7 @@
     "np": {
         "tests": false,
         "yolo": false,
-        "yarn": true,
+        "yarn": false,
         "cleanup": false
     }
 }
