@@ -94,10 +94,10 @@
         "react-dom": ">=16.8.0",
         "styled-components": "^5.1.1"
     },
-    "zf-np": {
+    "np": {
         "tests": false,
         "yolo": false,
-        "yarn": false,
+        "yarn": true,
         "cleanup": false
     }
 }
