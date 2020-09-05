@@ -5,3 +5,4 @@ export * from "./components/shared/styles";
 export * from "./components/icon";
 export * from "./components/radio";
 export * from "./components/badge";
+export * from "./components/carousel";
